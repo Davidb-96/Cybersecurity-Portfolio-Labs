@@ -8,11 +8,11 @@ Welcome to my central repository for hands-on security labs, machine exploitatio
 
 | Focus Area | Description | Core Skills Demonstrated | Featured Deliverable |
 | :--- | :--- | :--- | :--- |
-| **📁 1-Foundations** | Network analysis baselines and crypto theory. | Wireshark, traffic analysis, hashing. | [👉 View Traffic Analysis](./1-Foundations/wireshark_analysis.md) |
-| **📁 2-Linux Web Machines** | Walkthroughs and write-ups for Linux environments. | Web enumeration, CMS exploitation, Linux PrivEsc. | [👉 View Web Assessment Notes](2-Linux%20Web%20Machines/web_assessment_notes.md) |
-| **📁 3-Active Directory** | Enterprise infrastructure attack vectors. | Kerberoasting, BloodHound, domain compromise. | [👉 View AD Attack Map](3-Active%20Directory/ad_attack_lifecycle.md) |
-| **📁 4-Custom Tools** | Python and Bash scripts engineered for labs. | Network sockets, scripting, automation. | [👉 View Port Scanner Script](4-Custom%20Tools/port_scanner.py) |
-| **📁 5-Exploits and Hard Challenges** | Deep-dive exploit development, reverse engineering, and high-difficulty security labs. | Binary exploitation, ROP chains, ASLR/DEP bypass. | [👉 View BoF Walkthrough](5-Exploits%20and%20Hard%20Challenges/bof_guide.md) |
+| **📁 1-Foundations** | Network analysis baselines and crypto theory. | Wireshark, traffic analysis, hashing. | [👉 View Traffic Analysis](1-Foundations/wireshark_analysis.md) |
+| **📁 2-Linux-Web-Machines** | Walkthroughs and write-ups for Linux environments. | Web enumeration, CMS exploitation, Linux PrivEsc. | [👉 View Web Assessment Notes](2-Linux-Web-Machines/web_assessment_notes.md) |
+| **📁 3-Active-Directory** | Enterprise infrastructure attack vectors. | Kerberoasting, BloodHound, domain compromise. | [👉 View AD Attack Map](3-Active-Directory/ad_attack_lifecycle.md) |
+| **📁 4-Custom-Tools** | Python and Bash scripts engineered for labs. | Network sockets, scripting, automation. | [👉 View Port Scanner Script](4-Custom-Tools/port_scanner.py) |
+| **📁 5-Exploits-and-Hard-Challenges** | Deep-dive exploit development, reverse engineering, and high-difficulty security labs. | Binary exploitation, ROP chains, ASLR/DEP bypass. | [👉 View BoF Walkthrough](5-Exploits-and-Hard-Challenges/bof_guide.md) |
 
 ---
 
