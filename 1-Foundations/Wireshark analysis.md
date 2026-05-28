@@ -10,7 +10,7 @@ To analyze a network packet capture (PCAP) to identify anomalous behavior, map n
 ## 🔍 Analysis & Findings
 
 ### 1. Protocol Breakdown
-Using Wireshark's `Statistics > Protocol Hierarchy`, the traffic baseline consists of:
+Using Wireshark's, the traffic baseline consists of:
 * **TCP:** 85% of total traffic (primarily HTTP on port 80).
 * **DNS:** 10% query traffic.
 * **Other:** 5% (ARP, ICMP).
@@ -20,7 +20,7 @@ Using Wireshark's `Statistics > Protocol Hierarchy`, the traffic baseline consis
 * **Filter Used:** `http.request.method == "POST"`
 * **Description:** While analyzing stream 4, an unencrypted HTTP POST request was observed heading to a login portal. The credentials were leaked in plaintext within the packet bytes:
   * **Username:** `admin`
-  * **Password:** `P@ssword123!`
+  * **Password:** `Password123!`
 
 ## 💡 Remediation Strategy
 All web authentication traffic must be encrypted using HTTPS (TLS 1.3) to prevent packet sniffing and man-in-the-middle (MITM) credential harvesting.
