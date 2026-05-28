@@ -14,6 +14,10 @@ Welcome to my central repository for hands-on security labs, machine exploitatio
 | 📁 **[4-Custom-Tools](./4-Custom-Tools/)** | Python and Bash scripts engineered for labs. | Network sockets, scripting, automation. |
 | 📁 **[5-Exploits-and-Hard-Challenges](./5-Exploits-and-Hard-Challenges/)** | Deep-dive exploit development, reverse engineering, and high-difficulty security labs. | Binary exploitation, ROP chains, ASLR/DEP bypass, reverse engineering. |
 
+### 🛠️ Tech Stack & Tooling
+* **Languages:** Python, Bash, Markdown
+* **OS / Environments:** Linux (Kali, Ubuntu), Windows Server (Active Directory)
+* **Tools:** Nmap, Burp Suite, Metasploit, Wireshark, BloodHound, John the Ripper / Hashcat
 ---
 
 ## 🛠️ Lab Environment & Methodology
