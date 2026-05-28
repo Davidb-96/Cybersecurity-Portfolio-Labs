@@ -4,15 +4,15 @@ Welcome to my central repository for hands-on security labs, machine exploitatio
 
 ---
 
-## 🗺️ Portfolio Map
+🗺️ Portfolio Map
 
-| Focus Area | Description | Core Skills Demonstrated |
-| :--- | :--- | :--- |
-| 📁 **[1-Foundations](./1-Foundations/)** | Network analysis baselines and crypto theory. | Wireshark, traffic analysis, hashing. |
-| 📁 **[2-Linux-Web-Machines](./2-Linux-Web-Machines/)** | Walkthroughs and write-ups for Linux environments. | Web enumeration, CMS exploitation, Linux PrivEsc. |
-| 📁 **[3-Active-Directory](./3-Active-Directory/)** | Enterprise infrastructure attack vectors. | Kerberoasting, BloodHound, domain compromise. |
-| 📁 **[4-Custom-Tools](./4-Custom-Tools/)** | Python and Bash scripts engineered for labs. | Network sockets, scripting, automation. |
-| 📁 **[5-Exploits-and-Hard-Challenges](./5-Exploits-and-Hard-Challenges/)** | Deep-dive exploit development, reverse engineering, and high-difficulty security labs. | Binary exploitation, ROP chains, ASLR/DEP bypass, reverse engineering. |
+| Focus Area | Description | Core Skills Demonstrated | Featured Deliverable |
+| :--- | :--- | :--- | :--- |
+| **📁 1-Foundations** | Network analysis baselines and crypto theory. | Wireshark, traffic analysis, hashing. | [👉 View Traffic Analysis](./1-Foundations/wireshark_analysis.md) |
+| **📁 2-Linux-Web-Machines** | Walkthroughs and write-ups for Linux environments. | Web enumeration, CMS exploitation, Linux PrivEsc. | [👉 Download Sample Audit Report (PDF)](./2-Linux-Web-Machines/sample_audit_report.pdf) |
+| **📁 3-Active-Directory** | Enterprise infrastructure attack vectors. | Kerberoasting, BloodHound, domain compromise. | [👉 View AD Attack Map](./3-Active-Directory/ad_attack_lifecycle.md) |
+| **📁 4-Custom-Tools** | Python and Bash scripts engineered for labs. | Network sockets, scripting, automation. | [👉 View Port Scanner Script](./4-Custom-Tools/port_scanner.py) |
+| **📁 5-Exploits-and-Hard-Challenges** | Deep-dive exploit development, reverse engineering, and high-difficulty security labs. | Binary exploitation, ROP chains, ASLR/DEP bypass. | [👉 View BoF Walkthrough](./5-Exploits-and-Hard-Challenges/bof_guide.md) |
 
 ### 🛠️ Tech Stack & Tooling
 * **Languages:** Python, Bash, Markdown
