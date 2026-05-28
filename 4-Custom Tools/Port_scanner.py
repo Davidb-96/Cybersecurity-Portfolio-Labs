@@ -3,7 +3,7 @@ import socket
 import sys
 from datetime import datetime
 
-# Define the target (Example: TryHackMe Target IP)
+# Define the target
 if len(sys.argv) == 2:
     target = socket.gethostbyname(sys.argv[1])
 else:
